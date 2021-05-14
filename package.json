@@ -1,0 +1,21 @@
+{
+  "name": "hydra-real-time-chat-app",
+  "version": "1.0.0",
+  "description": "Hydra Real Time -  is a web app based on technologies like nodejs, socket.io and CSS. It allows users to have a unique username, do real time chat with any user in any random Room No. Users can exchange information and their location with other users in the same room. It uses no database, so all the data is automatically dumped once all of the users leaves the room.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shivamdshon",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "github.com/shivamdshon/hydra-real-time-chat"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
